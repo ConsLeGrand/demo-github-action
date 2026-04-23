@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-# Supprime la page par défaut
+# Supprime la page par défaut rt
 RUN rm -rf /usr/share/nginx/html/*
 
 # Donner les permissions nécessaires pour OpenShift
